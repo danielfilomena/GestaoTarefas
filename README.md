@@ -6,7 +6,7 @@ Banco de dados a ser utilizado SQL Server.
 Segue algumas intruções de uso:
 
 1 - Alterar a string de conexão através do arquivo appsettings.json no projeto GT.API;
-2 - Rodar o comando update-migration para criação do banco de dados e suas tabelas;
+2 - Rodar o comando update-migration através do Package Manager Control, selecionando GT.Data como projeto default, para a criação do banco de dados e suas tabelas;
 3 - Os testes podem ser executados através do swagger ou postman.
 
 Obrigado pela oportunida.
