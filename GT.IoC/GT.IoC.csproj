@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\GT.Application\GT.Application.csproj" />
+    <ProjectReference Include="..\GT.Data\GT.Data.csproj" />
+    <ProjectReference Include="..\GT.Domain\GT.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
